@@ -1,0 +1,37 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+section {
+    display: flex;
+    height: 50vh; /* Temporary */
+}
+
+#nav-sidebar {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #780E0E;
+}
+
+#nav-sidebar > h1 {
+    color: white;
+}
+
+.portfolio-container {
+    display: grid;
+    align-content: center;
+    grid-template-columns: 20% 80%;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-item > a {
+    color: white;
+    text-decoration: none;
+}
